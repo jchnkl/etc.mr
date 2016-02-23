@@ -1,14 +1,5 @@
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/asoundrc.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.asoundrc.git asoundrc
-
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/dircolors.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.dircolors.git dircolors
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/firefox.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.firefox.git firefox
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/fontconfig.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.fontconfig.git fontconfig
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/git.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.gitconfig.git git
@@ -16,29 +7,17 @@ checkout = vcsh clone -b master git@github.com:jotrk/etc.gitconfig.git git
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/gnupg.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.gnupg.git gnupg
 
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/gtk.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.gtk.git gtk
-
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/haskeline.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.haskeline.git haskeline
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/irssi.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.irssi.git irssi
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/misc.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.misc.git misc
+checkout = vcsh clone -b master git@github.com:jotrk/etc.irssi.git irssi
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/mplayer.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.mplayer.git mplayer
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/mr.git]
 checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.mr.git mr
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/muttator.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.muttator.git muttator
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/openbox.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.openbox.git openbox
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/profile.git]
 checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.profile.git profile
@@ -52,32 +31,11 @@ checkout = vcsh clone -b master git@github.com:jotrk/etc.signatured.git signatur
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/ssh.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.ssh.git ssh
 
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/thunderbird.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.thunderbird.git thunderbird
-
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/tmux.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.tmux.git tmux
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/vim.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.vim.git vim
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/vimperator.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.vimperator.git vimperator
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/wallpaper.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.wallpaper.git wallpaper
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/xbindkeys.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.xbindkeys.git xbindkeys
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/xinit.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.xinit.git xinit
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/xkb.git]
-checkout = vcsh clone -b master git@github.com:jotrk/etc.xkb.git xkb
-
-[${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/Xresources.git]
-checkout = vcsh clone -b $(hostname) git@github.com:jotrk/etc.Xresources.git Xresources
 
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/zsh.git]
 checkout = vcsh clone -b master git@github.com:jotrk/etc.zsh.git zsh
